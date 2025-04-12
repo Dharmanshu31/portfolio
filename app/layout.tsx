@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   description:
     "Personal portfolio of Dharmanshu Paghadar, a full stack software developer specializing in web development with modern technologies.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo.jpg",
   },
     generator: 'v0.dev'
 }

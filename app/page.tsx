@@ -4,6 +4,7 @@ import { ArrowRight, Github, Linkedin } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import { HeroAnimation } from "@/components/hero-animation"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import FlippingImage from "@/components/flipImg";
 
 export const projects = [
   {
@@ -52,12 +53,8 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
         <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
-          <div className="overflow-hidden rounded-full border-2 border-primary p-1">
-            <img
-              src="/placeholder.svg?height=120&width=120"
-              alt="Dharmanshu Paghadar"
-              className="h-28 w-28 rounded-full object-cover"
-            />
+          <div className="overflow-hidden rounded-full border-2 border-neutral-700 p-1">
+            <FlippingImage />
           </div>
 
           <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">Dharmanshu Paghadar</h1>

@@ -10,7 +10,7 @@ export default function AboutPage() {
           <div className="md:col-span-1">
             <div className="sticky top-20">
               <img
-                src="/placeholder.svg?height=300&width=300"
+                src="/me.jpeg"
                 alt="Dharmanshu Paghadar"
                 className="rounded-xl w-full mb-4"
               />
